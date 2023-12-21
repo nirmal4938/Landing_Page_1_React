@@ -1,0 +1,87 @@
+@media screen and (max-width: 960px) {
+    .p-menubar .p-menubar-button {
+        color: white;
+        height: 3.5rem;
+        align-items: start;
+        justify-content: start;
+        position: absolute;
+    }
+
+    .p-menubar-end {
+        width: 100%;
+        /* position: absolute; */
+    }
+
+    .p-menubar-end .p-d-flex {
+        display: flex;
+        width: auto;
+        /* justify-content: center; */
+        align-items: baseline;
+        justify-content: space-between;
+        margin-left: 30px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .card-courasel {
+        /* background-image: url("../common/assets/background-image.jpg"); */
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .p-menubar-end {
+        margin-left: 15%;
+    }
+
+    .p-menubar-end .p-d-flex {
+        display: flex;
+    }
+
+    .p-menubar-end div {
+        display: flex;
+    }
+
+    .p-menubar-end .p-d-flex .shop-name {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .p-menubar-end .p-inputtext {
+        width: 350px !important;
+    }
+
+}
+
+.p-menubar-root-list {
+
+    z-index: 1001;
+    background: #36459a;
+    border-top: 2px solid blueviolet;
+}
+
+a.p-menuitem-link {
+    color: white;
+}
+
+
+a.p-menuitem-link span {
+    color: unset;
+}
+
+.p-carousel-next,
+.p-carousel-prev {
+    color: white !important;
+
+}
+
+/* title css */
+.title {
+    background-image: url("../common/assets/background-image.jpg");
+    color: #2d218b;
+}
